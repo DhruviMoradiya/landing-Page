@@ -12,7 +12,9 @@ body {
   position: relative;
   height: 100%;
 }
-
+/* nav{
+  height: 50px;
+} */
 .all-content {
   background: #f7f5f2;
 }
@@ -40,10 +42,6 @@ body {
   float: right;
   gap: 20px;
 }
-
-/* .navbar ul {
-} */
-
 .navbar-nav li {
   display: inline;
   /* margin: 0 15px; */
@@ -155,7 +153,7 @@ body {
   height: 15px;
 }
 
-.navbar-toggler-icon i {
+.navbar-toggler-icon {
   color: #fff;
 }
 
@@ -366,7 +364,7 @@ body {
 }
 /* 375 */
 @media (max-width: 424px) {
-  .navbar .logo{
+  .navbar .logo img{
     width: 60px !important;
   }
   .left-section .name{
