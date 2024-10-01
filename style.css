@@ -149,12 +149,12 @@ body {
   height: 15px;
 }
 /* 992 */
-@media (max-width: 1279px) {
+/* @media (max-width: 1279px) {
   .right-section img{
     width: 100% !important;
     height: 90vh !important;
 }
-}
+} */
 /* 576 */
 @media (max-width: 767px) {
   .main-content {
@@ -169,6 +169,10 @@ body {
     width: 100%;
     padding: 0;
     position: relative;
+  }
+  .right-section img{
+    width: 100% !important;
+    /* height: 70vh !important; */
   }
   .footer .social-icons img {
     width: 30% !important;
@@ -216,40 +220,40 @@ body {
     font-size: 0.8em;
   }
   .footer .social-icons {
-    gap: 5px;
+    gap: 5px !important;
   }
   .footer .social-icons img {
-    width: 8px;
-    height: 8px;
+    width: 8px !important;
+    height: 8px !important;
   }
   .right-section img{
     width: 100% !important;
-    height: 80vh !important;
+    height: 70vh !important;
 }
 }
-/* 1280 */
+/* 1280
 @media (max-width: 1400px) {
   .right-section img{
   width: 100% !important;
   height: 80vh !important;
 }
-}
+} */
 /* 425 */
 @media (max-width: 479px) {
   .left-section h1 {
-    font-size: 2em;
+    font-size: 2em !important;
   }
 
   .left-section p {
-    font-size: 1em;
+    font-size: 1em !important;
   }
 
   .left-section a {
-    font-size: 0.9em;
+    font-size: 0.9em !important;
   }
 
   .left-section .name {
-    margin-top: 10px;
+    margin-top: 10px !important;
     font-size: 15px !important;
   }
 
