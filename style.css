@@ -96,6 +96,10 @@ a {
 .btn {
   justify-content: center;
   align-items: center;
+  padding: 10px;
+}
+.copy{
+  padding: 8px;
 }
 .image {
   position: absolute;
