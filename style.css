@@ -21,7 +21,7 @@ body {
   color: #fff !important;
 }
 .nav-link :hover {
-  color: black !important;
+  color: black;
 }
 .navbar-collapse {
   display: flex;
@@ -33,8 +33,7 @@ body {
   position: relative;
 }
 .all-sections {
-  height: 83.5vh;
-  /* display: flex; */
+  height: 83.5vh; 
   overflow: hidden;
 }
 .left-section {
@@ -76,7 +75,6 @@ body {
   margin: 10px auto;
   background: #16516c;
   color: #fff;
-  /* margin-bottom: 18%; */
 }
 footer {
   position: relative;
@@ -91,7 +89,7 @@ footer {
 a {
   text-decoration: none;
   color: #fff !important;
-  gap: 5px;
+  gap: 8px;
 }
 .btn {
   justify-content: center;
@@ -185,6 +183,18 @@ a {
   .section a img {
     height: 20px !important;
   }
+  .footer{
+    background-color: #134761 ;
+  }
+  a{
+    color: #fff;
+  }
+  .btn{
+    color: #fff;
+  }
+  .copy{
+    color: #fff;
+  }
 }
 /* 525 */
 @media (max-width: 575px) {
@@ -212,6 +222,15 @@ a {
   }
   .left-content img {
     height: 8px !important;
+  }
+  a{
+    color: #fff;
+  }
+  .btn{
+    color: #fff;
+  }
+  .copy{
+    color: #fff;
   }
 }
 /* 824 */
@@ -264,7 +283,7 @@ a {
   .left-content button {
     font-size: 15px !important;
     padding: 8px 30px;
-    margin-bottom: 45%;
+    margin-bottom: 30%;
   }
   .left-content img {
     height: 8px !important;
@@ -295,6 +314,18 @@ a {
   }
   .left-content img {
     height: 8px !important;
+  }
+  .footer{
+    background-color: #134761 ;
+  }
+  a{
+    color: #fff;
+  }
+  .btn{
+    color: #fff;
+  }
+  .copy{
+    color: #fff;
   }
 }
 /* 320 */
@@ -331,6 +362,9 @@ a {
   .left-content img {
     height: 8px;
   }
+  .footer{
+    background-color: #134761 ;
+  }
 }
 /* 280 */
 @media (max-width: 319px) {
@@ -365,5 +399,8 @@ a {
   }
   .copy {
     font-size: 12px !important;
+  }
+  .footer{
+    background-color: #134761 ;
   }
 }
