@@ -5,7 +5,7 @@
 
 .section {
   height: 100vh;
-  /* width: 100vw; */
+  width: 100vw;
   display: flex;
   flex-direction: column;
 }
@@ -70,15 +70,15 @@ a {
 }
 
 .content h3 {
-  font-size: 35px;
+  font-size: 40px;
   color: #00b3e3;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .content p {
   font-size: 18px;
   color: #8c8b8b;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .content button {
@@ -99,63 +99,56 @@ a {
 
 @media only screen and (min-width: 2300px) {
   .image {
-    height: 700px;
+    height: 900px;
   }
 }
 
 @media only screen and (min-width: 2200px) {
   .image {
-    height: 650px;
+    height: 800px;
   }
 }
 
 @media only screen and (min-width: 1970px) {
   .image {
-    height: 650px;
+    height: 600px;
   }
 }
 
 @media only screen and (max-width: 1620px) {
   .image {
-    height: 600px;
+    height: 550px;
   }
 }
 
 @media only screen and (max-width: 1570px) {
   .image {
-    height: 600px;
+    height: 500px;
   }
 }
 
 @media only screen and (max-width: 1520px) {
   .image {
-    height: 550px;
+    height: 450px;
   }
 }
-/* 1255 */
+
 @media only screen and (max-width: 1420px) {
   .image {
-    height: 500px;
+    height: 400px;
   }
-  .content h1 {
-    font-size: 50px;
-  }
-
-  .content h3 {
-    font-size: 25px;
-  }
-
 }
-@media (max-width: 1220px) {
+
+@media only screen and (max-width: 1220px) {
   .image {
-    height: 500px;
+    height: 400px;
   }
   .content h1 {
-    font-size: 50px;
+    font-size: 60px;
   }
 
-  .content h3 {
-    font-size: 25px;
+  .content h2 {
+    font-size: 30px;
   }
 
   .content p {
@@ -169,20 +162,19 @@ a {
 
 @media only screen and (max-width: 1170px) {
   .image {
-    height: 500px;
+    height: 400px;
   }
-  .content h1 {
-    font-size: 45px;
+  .content h3{
+    font-size: 30px;
   }
-  .content h3 {
-    font-size: 20px;
-  }
-
 }
 
 @media only screen and (max-width: 1100px) {
   .image {
-    height: 450px;
+    height: 350px;
+  }
+  .content h3{
+    font-size: 30px;
   }
 }
 
@@ -203,7 +195,7 @@ a {
   }
 
   .image {
-    position: relative; 
+    position: relative;
     height: 100%;
   }
 
@@ -212,7 +204,7 @@ a {
   }
 
   .content h3 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .content p {
@@ -227,10 +219,10 @@ a {
 /* 425 */
 @media (max-width: 479px) {
   .content h1 {
-    font-size: 35px;
+    font-size: 35px !important;
   }
   .content h3 {
-    font-size: 20px;
+    font-size: 20px !important; 
   }
   .content img {
     height: 8px !important;
@@ -239,20 +231,20 @@ a {
 /* 768 */
 @media (max-width: 991px) {
   .content h1 {
-    font-size: 30px;
+    font-size: 30px !important;
   }
   .content h3 {
-    font-size: 15px;
+    font-size: 15px !important;
   }
   .content img {
     height: 8px !important;
   }
   .content p {
-    font-size: 10px;
+    font-size: 10px !important;
   }
 
   .content button {
-    font-size: 12px;
+    font-size: 12px !important;
   }
   .copy {
     font-size: 15px !important;
@@ -262,20 +254,20 @@ a {
 /* 576 */
 @media (max-width: 767px) {
   .content h1 {
-    font-size: 30px;
+    font-size: 30px !important;
   }
   .content h3 {
-    font-size: 15px;
+    font-size: 15px !important;
   }
   .content img {
     height: 8px !important;
   }
   .content p {
-    font-size: 10px;
+    font-size: 10px !important;
   }
 
   .content button {
-    font-size: 12px;
+    font-size: 12px !important;
   }
   .copy {
     font-size: 15px !important;
@@ -285,20 +277,20 @@ a {
 /* 375 */
 @media (max-width: 424px) {
   .content h1 {
-    font-size: 35px;
+    font-size: 35px !important;
   }
   .content h3 {
-    font-size: 17px;
+    font-size: 17px !important;
   }
   .content img {
     height: 8px !important;
   }
   .content p {
-    font-size: 14px;
+    font-size: 14px !important;
   }
 
   .content button {
-    font-size: 14px;
+    font-size: 14px !important;
   }
   .copy {
     font-size: 14px !important;
@@ -307,20 +299,20 @@ a {
 /* 320 */
 @media (max-width: 374px) {
   .content h1 {
-    font-size: 35px;
+    font-size: 35px !important;
   }
   .content h3 {
-    font-size: 17px;
+    font-size: 17px !important;
   }
   .content img {
     height: 8px !important;
   }
   .content p {
-    font-size: 12px;
+    font-size: 12px !important;
   }
 
   .content button {
-    font-size: 12px;
+    font-size: 12px !important;
   }
   .copy {
     font-size: 12px !important;
@@ -329,20 +321,20 @@ a {
 /* 280 */
 @media (max-width: 319px) {
   .content h1 {
-    font-size: 30px;
+    font-size: 30px !important;
   }
   .content h3 {
-    font-size: 15px;
+    font-size: 15px !important;
   }
   .content img {
     height: 8px !important;
   }
   .content p {
-    font-size: 10px;
+    font-size: 10px !important;
   }
 
   .content button {
-    font-size: 12px;
+    font-size: 12px !important;
   }
   .copy {
     font-size: 10px !important;
